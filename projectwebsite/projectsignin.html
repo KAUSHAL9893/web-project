@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+            margin: 0;
+        }
+        .login-container {
+            max-width: 400px;
+            width: 100%;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            max-width: 100%;
+            height: auto;
+        }
+        .btn-social {
+            margin-bottom: 10px;
+        }
+        .btn-social img {
+            margin-right: 10px;
+            width: 20px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">
+            <img src="Screenshot 2024-07-07 163012.png" alt="Car and Driver Logo">
+        </div>
+        <h4 class="text-center">Sign In</h4>
+        <form>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <div class="input-group">
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button">
+                            <span class="glyphicon glyphicon-eye-open"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="d-block mb-3">Forgot or need a password?</a>
+            <button type="submit" class="btn btn-primary btn-block mb-3">SIGN IN</button>
+            <div class="text-center">
+                <span>Don’t have an account? <a href="#">Sign Up</a></span>
+            </div>
+            <hr>
+            <div class="text-center">or</div>
+            <hr>
+            <button type="button" class="btn btn-outline-primary btn-block btn-social">
+                <img src="download.png" alt="Facebook"> Sign in with Facebook
+            </button>
+            <button type="button" class="btn btn-outline-danger btn-block btn-social">
+                <img src="download (1).png" alt="Google"> Sign in with Google
+            </button>
+            <button type="button" class="btn btn-outline-dark btn-block btn-social">
+                <img src="images.png" alt="Apple"> Sign in with Apple
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-block btn-social">
+                <img src="download (2).png" alt="Microsoft"> Sign in with Microsoft
+            </button>
+        </form>
+    </div>
+</body>
+</html>
